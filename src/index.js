@@ -23,7 +23,19 @@
 // name = "Viki";
 // alert(name);
 
-let me = prompt("what is your name");
-let age = prompt("how old are you");
-let email = prompt("enter your email");
-alert(`Hi ${me}, you are ${age} years old, and we will keep in touch via your email ${email} 👋👋`);
+// let me = prompt("what is your name");
+// let age = prompt("how old are you");
+// let email = prompt("enter your email");
+// alert(`Hi ${me}, you are ${age} years old, and we will keep in touch via your email ${email} 👋👋`);
+
+
+let num = 5;
+console.log(5)
+let jey = 7;
+console.log(jey);
+
+let name1 = "my name is Viki";
+let sentence = "hi there " + name1;  //example of concatenating
+console.log(sentence);
+let sentence1 = `hello 😍 ${name1}`; //example of interpolation
+console.log(sentence1);
