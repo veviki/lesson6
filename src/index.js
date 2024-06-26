@@ -18,7 +18,12 @@
 // let favproduct = prompt("What is your favproduct");
 // alert(`Hi ${title}, ${name2}, you like ${favproduct}`);
  
-let name ="Elpe";
-name = "Kafui";
-name = "Viki";
-alert(name);
+// let name ="Elpe";
+// name = "Kafui";
+// name = "Viki";
+// alert(name);
+
+let me = prompt("what is your name");
+let age = prompt("how old are you");
+let email = prompt("enter your email");
+alert(`Hi ${me}, you are ${age} years old, and we will keep in touch via your email ${email} 👋👋`);
